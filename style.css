@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div.wrapper{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+nav{
+    font-size: 0;
+    background-color: lightblue;
+   
+}
+nav a{
+    display: inline-block;
+    width: 25%;
+    font-size: 28px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: arial;
+    text-align: center;
+    color:white;
+    padding: 10px 0;
+    
+}
+
+nav a.btn1{
+    background-color: burlywood;
+}
+
+nav a.btn2{
+    background-color: deepskyblue;
+}
+
+nav a.btn3{
+    background-color: darkcyan;
+}
+
+nav a.btn4{
+    background-color: rgb(179, 119, 179);
+}
+
+nav a.btn1:hover{
+    background-color: black;
+}
+
+nav a.btn2:hover{
+    background-color: black;
+}
+
+nav a.btn3:hover{
+    background-color: black;
+}
+
+nav a.btn4:hover{
+    background-color: black;
+}
